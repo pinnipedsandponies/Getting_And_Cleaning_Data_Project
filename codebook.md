@@ -32,16 +32,19 @@ This script does not include downloading the data into your working directory. Y
 This script will:
 
  Create vector objects for the various raw data sets included in the UC Irvine raw data file.
-	These objects are the raw measurements on both axises and the subject, activity, and measurement 		labels. 
+	  These objects are the raw measurements on both axises and the subject, activity, and measurement 		labels. 
 
  Merge the relevant data sets into one.
-	The X-axis measurements and labels are merged, the Y-axis measurements and labels are merged, 	then both are merged into one raw dataset.
+	  The X-axis measurements and labels are merged, the Y-axis measurements and labels are merged, 	then both are merged into one raw dataset.
 
-    Extract the measurements for mean and standard deviation for each subject/activity.
-	The mean and standard deviation for each activity is extracted, by study subject, and stored in a new 	vector.
+  Extract the measurements for mean and standard deviation for each subject/activity.
+	  The mean and standard deviation for each activity is extracted, by study subject, 
+	  and stored in a new vector.
 
  Updates the activity and variable names to make them more understandable.
-	The activity labels are applied to make the data more understandable, and the variable names are 	updated for more clarity.
+	  The activity labels are applied to make the data more understandable, and the variable names are
+	   updated for more clarity.
 
-    Creates and writes a separate tidy data set. 
-  	A new data table is created with the subsetted raw data with the updated labeling, and written as a txt 	file called ProjectTidyData
+  Creates and writes a separate tidy data set. 
+  	A new data table is created with the subsetted raw data with the updated labeling, and written as a txt 
+  	file called ProjectTidyData
